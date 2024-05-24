@@ -25,3 +25,10 @@ curl http://127.0.0.1:11434/api/generate -d '{
   "prompt":"How are you?",
   "stream": false
 }'
+
+
+### Guardar en Github
+
+git add . (Revisa)
+git push commit -m "UDPATE README" (Etiqueta)
+git push -u origin main (Actualiza)
