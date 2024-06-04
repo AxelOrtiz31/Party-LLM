@@ -29,11 +29,3 @@ resultado = sq(25)
 print(resultado)
 
 print(f'{resultado} es la raiz cuadrada de 25')
-
-import pil
-from pil import Image
-i = Image.open('mexico.jpg','r') # imagen en color
-
-
-encoded_bytes = base64.b64encode(image)
-encoded_string = encoded_bytes.decode('utf-8')

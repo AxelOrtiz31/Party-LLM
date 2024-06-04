@@ -24,4 +24,3 @@ x = rs.post(url, json = myobj)
 x = js.loads(x.text)
 
 print(x['response'])
-
