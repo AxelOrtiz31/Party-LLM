@@ -14,7 +14,7 @@ img = convert.decode('utf-8')
 #Codigo para que la IA responda
 url = 'http://127.0.0.1:11434/api/generate'
 myobj = {
-  "model": "codellama",
+  "model": "llava",
   "prompt":"Can you make the script for SQL for this picture?",
   "images": [img],
   "stream": False

@@ -3,8 +3,8 @@ import json as js
 
 url = 'http://127.0.0.1:11434/api/generate'
 myobj = {
-  "model": "tinyllama",
-  "prompt":"Nice day?",
+  "model": "llama3",
+  "prompt":"¿Puedes dar un ejemplo de una pregunta en Past Continuous?",
   "stream": False
 }
 
